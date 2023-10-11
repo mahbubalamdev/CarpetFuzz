@@ -10,3 +10,9 @@ sudo apt-get install -y python3.10 python3.10-dev python3.10-venv
 sudo ln -s /usr/bin/python3.10 /usr/bin/python
 
 sudo apt install clang lldb lld
+
+sudo apt install docker-ce
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo usermod -aG docker vagrant
+
